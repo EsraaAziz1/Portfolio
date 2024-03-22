@@ -16,7 +16,7 @@ const sendEmail = (e) => {
     emailjs.sendForm('service_9hzyw9e', 'template_06rfjsj', 'contact-form', 'qX98DkhmcjzvH3Cbo')
         .then(() => {
             //show sent message
-            contactMessage.textContent = 'Message sent successfully✅❌'
+            contactMessage.textContent = 'Message sent successfully✅'
 
             //Remove message after five seconds
             setTimeout(() => {
