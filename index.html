@@ -236,9 +236,7 @@
   <section class="projects section container" id="projects" style="margin-top: 100px;">
     <p class="dec-ad">My Jobs</p>
     <h2 class="dec-details">Projects</h2>
-    <div class="projects__container container row ">
-     
-
+    <div class="projects__container container row col-lg-4 col-md-6 col-sm-12 col-12">
       <article class="projects__card col-lg-4 col-md-6 col-sm-12">
         <img src="image/project1.png" alt="projects image" class="projects__img">
         <div class="projects__modal">
@@ -345,8 +343,19 @@
           </a>
         </div><!-- projects__modal -->
       </article><!-- projects__card -->
-
     </div><!-- projects__container -->
+     <div class="projects__container container row ">
+        <article class="projects__card col-lg-4 col-md-6 col-sm-12">
+          <img src="image/project10.png" alt="projects image" class="projects__img">
+          <div class="projects__modal">
+            <span class="projects__subtitle">Web</span>
+            <h3 class="projects__title">Portfolio</h3>
+            <a href="https://esraaaziz1.github.io/Portfolio/" target="_blank" class="projects__button">
+              View demo <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div><!-- projects__modal -->
+        </article><!-- projects__card -->
+      </div><!-- projects__container -->
   </section>
 
   <!-- ------------------------- contact me(section-4)--------------------------- -->
@@ -363,11 +372,11 @@
           <input type="text" name="user_name" required id="" placeholder="Enter your name" class="contact-input">
           <input type="email" name="" id="" required placeholder="Enter your email" class="contact-input">
         </div><!-- contact__group -->
-        <textarea name="user_project" required placeholder="Enter your message"></textarea>
+       <textarea name="user_project" required placeholder="    Enter your message"></textarea>
 
         <p class="contact__message" id="contact-message"></p>
 
-        <button type="submit" class="button contact__button btn">
+        <button type="submit" class="button contact__button btn btn-1">
           Send Message
         </button>
       </form>
