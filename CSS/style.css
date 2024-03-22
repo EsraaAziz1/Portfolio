@@ -540,6 +540,7 @@ main {
     height: 11rem;
     resize: none;
     margin-top: 1rem;
+    border-radius: 0.5rem;
 }
 
 .contact__button {
