@@ -423,6 +423,8 @@ main {
 
 .skills__level {
     font-size: lighter;
+    color: #f1f0f0b0;
+    padding: .4rem .5rem;
 }
 
 /* *********************Projects(section-3)******************* */
