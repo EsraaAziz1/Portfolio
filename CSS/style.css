@@ -108,8 +108,19 @@ main {
     border-radius: 50%;
     box-shadow: 3px 4px 10px black;
     max-width: 100%;
+    animation: floatImage 4s ease-in-out infinite;
 }
-
+@keyframes floatImage{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-2.4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 .profile .btns {
     display: flex;
     justify-content: center;
@@ -169,7 +180,7 @@ main {
 
 .main-info p span {
     position: relative;
-    color: rgba(255, 252, 252, 0.111);
+    color: rgba(236, 229, 229, 0.84);
     animation: displayText 5s infinite;
     /* animation-delay: calc(-4s * var(--i)); */
 }
