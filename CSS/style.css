@@ -256,7 +256,7 @@ main {
 @media screen and (max-width: 950px) {
     .nav__menu {
         width: 95%;
-      margin-left: 0;
+      margin-left: 0 !important;
     }
 
     .about__container {
@@ -296,7 +296,7 @@ main {
 
     .nav__menu {
         width: 95%;
-        margin-left: 0;
+        margin-left: 0 !important;
     }
 }
 
