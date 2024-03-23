@@ -55,6 +55,7 @@ header {
     padding: .5rem 1rem;
     backdrop-filter: blur(10px);
     margin: auto;
+    margin-left: 250px;
 }
 
 .nav__list {
@@ -255,6 +256,7 @@ main {
 @media screen and (max-width: 950px) {
     .nav__menu {
         width: 95%;
+        margin-left: 15px;
     }
 
     .about__container {
@@ -294,6 +296,7 @@ main {
 
     .nav__menu {
         width: 95%;
+        margin-left: 15px;
     }
 }
 
